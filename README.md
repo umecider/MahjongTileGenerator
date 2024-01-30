@@ -24,11 +24,11 @@ rows:
 #### By default, the tiles produced are 26mm(H)x16mm(W)x19mm(L), with a chamfer of 2mm.
 
 tileWidth: 
-- Width of the tile to generate in millimeters.
+  - Width of the tile to generate in millimeters.
 tileHeight: 
-- Height of the tile to generate in millimeters.
+  - Height of the tile to generate in millimeters.
 tileLength: 
-- Length of the tile to generate in millimeters.
+  - Length of the tile to generate in millimeters.
 chamferRadius: 
-- This determines how extreme of a chamfer the tiles will have. This uses a minkowski sum, meaning that it's not a true chamfer but is very close.
-- It's reccommended to have a maximum radius of 4, but you can generate ones beyond that. They do not look like they will stand up, however.
+  - This determines how extreme of a chamfer the tiles will have. This uses a minkowski sum, meaning that it's not a true chamfer but is very close.
+  - It's reccommended to have a maximum radius of 4, but you can generate ones beyond that. They do not look like they will stand up, however.
